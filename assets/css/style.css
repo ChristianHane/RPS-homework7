@@ -1,13 +1,32 @@
 h1{
+    background-color: black;
+    background-image: url("../images/rps.png");
+    background-repeat: no-repeat;
+    background-position-x : center;
     border: 2px solid black;
     text-align: center;
     width: 90%;
-    height: 70px;
+    height: 145px;
     margin-left: 5%;
-    padding-top: 30px;
+    padding-top: 115px;
+}
+
+#rock{
+    margin-left: 2%;
+    margin-right: 11%;
+}
+
+#paper{
+    margin-left: 12%;
+    margin-right: 11%;
+}
+
+#scissors{
+    margin-left: 11%;
 }
 
 #player-1, #player-2, #display-winner{
+    background-color: white;
     text-align: center;
     height: 200px;
     width: 25.8%;
@@ -48,4 +67,25 @@ h1{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+#display-winner, #player-1, #player-2{
+    font-size: 20pt;
+}
+
+#chat-text{
+    font-size: 11pt;
+    height: 20px;
+    width: 85%;
+    margin: 5px 0 0 2%;
+}
+
+.submit-chat, .submit-name{
+    height: 25px;
+}
+
+#name{
+    height: 20px;
+    width: 20%;
+    font-size: 11pt;
 }
