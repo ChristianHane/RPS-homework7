@@ -1,0 +1,51 @@
+h1{
+    border: 2px solid black;
+    text-align: center;
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+    padding-top: 30px;
+}
+
+#player-1, #player-2, #display-winner{
+    text-align: center;
+    height: 200px;
+    width: 25.8%;
+    margin: 20px 3% 60px 3%;
+    border: 2px solid black;
+    float: left;
+}
+
+#chat{
+    margin-left: 30%;
+    background-color: aquamarine;
+    width: 40%;
+    height: 200px;
+    border: 2px solid black;
+    clear: both;
+}
+
+#display-chat{
+    border-bottom: 1px solid black;
+    height: 80%;
+    width: 100%;
+}
+
+#player-1 {
+    margin-left: 5%;
+}
+
+#name-form{
+    text-align: center;
+}
+
+#chat-box{
+    font-size: 15px;
+    width: 85%;
+    margin: 5px 2px 0px 5px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

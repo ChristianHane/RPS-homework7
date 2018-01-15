@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">        
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div id="name-form">
+        <input type="text" name="playername" placeholder="Name" id="name" value="">
+        <button id="submit-name">Submit</button>
+    </div>
+
+    <div id="player-1">
+        <span id="waiting-p1">Waiting for Player 1</span>
+        <span id="p1-name"></span>
+        <div id="displayP1-choice"></div>
+        <div>
+            <span id="p1-wins">Wins: 0</span>
+            <span id="p1-losses">Losses: 0</span>
+        </div>
+    </div>
+
+    <div id="display-winner"></div>
+
+    <div id="player-2">
+        <span id="waiting-p2">Waiting for Player 2</span>
+        <span id="p2-name"></span>
+        <div id="displayP2-choice"></div>
+        <div>
+            <span id="p2-wins">Wins: 0</span>
+            <span id="p2-losses">Losses: 0</span>
+        </div>
+    </div>
+
+    <div id="chat">
+        <div id="display-chat"></div>
+        <input type="text" name="chat" id="chat-text" value="">
+        <button class="submit-chat" value="submit">CHAT</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBJ5XJew6a-eT2kD1OCU3D2HWeRG4Rx2KQ",
+        authDomain: "rps-homework-817ae.firebaseapp.com",
+        databaseURL: "https://rps-homework-817ae.firebaseio.com",
+        projectId: "rps-homework-817ae",
+        storageBucket: "",
+        messagingSenderId: "872905876626"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
